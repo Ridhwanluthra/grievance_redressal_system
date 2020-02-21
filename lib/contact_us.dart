@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:grievance_redressal_system/utils.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class ContactUs extends StatelessWidget {
   @override
@@ -28,256 +29,32 @@ class ContactUs extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.stretch,
                           children: <Widget>[
-                            Padding(
-                              padding: const EdgeInsets.only(left: 10, top: 10),
-                              child: Text(
-                                'Rajiv Babbar',
-                                style: TextStyle(
-                                  // color: Colors.black,
-                                  fontSize: 24.0,
-                                  fontWeight: FontWeight.w500,
-                                ),
-                              ),
-                            ),
-                            Padding(
-                              padding: const EdgeInsets.all(10.0),
-                              child: Row(
-                                children: <Widget>[
-                                  Icon(
-                                    Icons.phone,
-                                    color: Theme.of(context).primaryColor,
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.only(
-                                      left: 10,
-                                    ),
-                                    child: Text(
-                                      '9212030000',
-                                      style: TextStyle(
-                                        fontSize: 20.0,
-                                      ),
-                                      textAlign: TextAlign.left,
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                      Card(
-                        shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(20)),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.stretch,
-                          children: <Widget>[
-                            Padding(
-                              padding: const EdgeInsets.all(10.0),
-                              child: Row(
-                                children: <Widget>[
-                                  Icon(
-                                    Icons.location_city,
-                                    color: Theme.of(context).primaryColor,
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.only(left: 10),
-                                    child: Text(
-                                      'Address',
-                                      style: TextStyle(
-                                        // color: Colors.black,
-                                        fontSize: 24.0,
-                                        fontWeight: FontWeight.w500,
-                                      ),
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                            Padding(
-                              padding: const EdgeInsets.only(
-                                  left: 15, right: 15, bottom: 10),
-                              child: Text(
-                                'S-1/141, old mahavir nagar, opp - 20 block gurdwara - tilak nagar, 110018',
-                                style: TextStyle(
-                                  fontSize: 18.0,
-                                ),
-                                textAlign: TextAlign.left,
-                              ),
-                            ),
-                            Padding(
-                              padding: const EdgeInsets.all(10.0),
-                              child: Row(
-                                children: <Widget>[
-                                  Icon(
-                                    Icons.contact_phone,
-                                    color: Theme.of(context).primaryColor,
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.only(left: 10),
-                                    child: Text(
-                                      'Landline',
-                                      style: TextStyle(
-                                        // color: Colors.black,
-                                        fontSize: 24.0,
-                                        fontWeight: FontWeight.w500,
-                                      ),
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                            Padding(
-                              padding: const EdgeInsets.only(
-                                  left: 15, right: 15, bottom: 10),
-                              child: Text(
-                                '01125993233',
-                                style: TextStyle(
-                                  fontSize: 18.0,
-                                ),
-                                textAlign: TextAlign.left,
-                              ),
-                            ),
-                            Padding(
-                              padding: const EdgeInsets.all(10.0),
-                              child: Row(
-                                children: <Widget>[
-                                  Icon(
-                                    Icons.phone,
-                                    color: Theme.of(context).primaryColor,
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.only(left: 10),
-                                    child: Text(
-                                      'Mamta Grover',
-                                      style: TextStyle(
-                                        // color: Colors.black,
-                                        fontSize: 24.0,
-                                        fontWeight: FontWeight.w500,
-                                      ),
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                            Padding(
-                              padding: const EdgeInsets.only(
-                                  left: 15, right: 15, bottom: 10),
-                              child: Text(
-                                '9871982223',
-                                style: TextStyle(
-                                  fontSize: 18.0,
-                                ),
-                                textAlign: TextAlign.left,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                      Card(
-                        shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(20)),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.stretch,
-                          children: <Widget>[
-                            Padding(
-                              padding: const EdgeInsets.all(10.0),
-                              child: Row(
-                                children: <Widget>[
-                                  Icon(
-                                    Icons.location_city,
-                                    color: Theme.of(context).primaryColor,
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.only(left: 10),
-                                    child: Text(
-                                      'Address',
-                                      style: TextStyle(
-                                        // color: Colors.black,
-                                        fontSize: 24.0,
-                                        fontWeight: FontWeight.w500,
-                                      ),
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                            Padding(
-                              padding: const EdgeInsets.only(
-                                  left: 15, right: 15, bottom: 10),
-                              child: Text(
-                                'WZ-5A/32, Vishnu Garden, new delhi - 110018, Near 5 block gurdwara',
-                                style: TextStyle(
-                                  fontSize: 18.0,
-                                ),
-                                textAlign: TextAlign.left,
-                              ),
-                            ),
-                            Padding(
-                              padding: const EdgeInsets.all(10.0),
-                              child: Row(
-                                children: <Widget>[
-                                  Icon(
-                                    Icons.phone,
-                                    color: Theme.of(context).primaryColor,
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.only(left: 10),
-                                    child: Text(
-                                      'Vinay Rana',
-                                      style: TextStyle(
-                                        // color: Colors.black,
-                                        fontSize: 24.0,
-                                        fontWeight: FontWeight.w500,
-                                      ),
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                            Padding(
-                              padding: const EdgeInsets.only(
-                                  left: 15, right: 15, bottom: 10),
-                              child: Text(
-                                '9560117788',
-                                style: TextStyle(
-                                  fontSize: 18.0,
-                                ),
-                                textAlign: TextAlign.left,
-                              ),
-                            ),
-                            Padding(
-                              padding: const EdgeInsets.all(10.0),
-                              child: Row(
-                                children: <Widget>[
-                                  Icon(
-                                    Icons.phone,
-                                    color: Theme.of(context).primaryColor,
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.only(left: 10),
-                                    child: Text(
-                                      'Chaman Lal',
-                                      style: TextStyle(
-                                        // color: Colors.black,
-                                        fontSize: 24.0,
-                                        fontWeight: FontWeight.w500,
-                                      ),
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                            Padding(
-                              padding: const EdgeInsets.only(
-                                  left: 15, right: 15, bottom: 10),
-                              child: Text(
-                                '9810974012',
-                                style: TextStyle(
-                                  fontSize: 18.0,
-                                ),
-                                textAlign: TextAlign.left,
-                              ),
-                            ),
+                            callable(
+                                contactHeading(
+                                    context, Icons.email, 'Email Id'),
+                                'mailto:info@mrvinternational.in'),
+                            callable(contactData('info@mrvinternational.in'),
+                                'mailto:info@mrvinternational.in'),
+                            callable(
+                                contactHeading(context, Icons.contact_phone,
+                                    'Sandhya Khurana'),
+                                'tel:01147537173'),
+                            callable(
+                                contactData('01147537173'), 'tel:01147537173'),
+                            callable(
+                                contactHeading(
+                                    context, Icons.phone, 'Tarun Chopra'),
+                                'tel:9250900575'),
+                            callable(
+                                contactData('9250900575'), 'tel:9250900575'),
+                            callable(
+                                contactHeading(
+                                    context, Icons.location_city, 'Address'),
+                                'https://g.page/plauditminds?share'),
+                            callable(
+                                contactData(
+                                    'G-152, ground floor, vikaspuri, New Delhi - 110018'),
+                                'https://g.page/plauditminds?share'),
                           ],
                         ),
                       ),
@@ -297,46 +74,55 @@ class ContactUs extends StatelessWidget {
   }
 }
 
-Widget contactCard(
-    BuildContext context, IconData iconData, String heading, String data) {
-  return Card(
-    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-    child: Column(
-      crossAxisAlignment: CrossAxisAlignment.stretch,
+Widget contactHeading(BuildContext context, IconData iconData, String data) {
+  return Padding(
+    padding: const EdgeInsets.all(10.0),
+    child: Row(
       children: <Widget>[
-        Padding(
-          padding: const EdgeInsets.all(10.0),
-          child: Row(
-            children: <Widget>[
-              Icon(
-                iconData,
-                color: Theme.of(context).primaryColor,
-              ),
-              Padding(
-                padding: const EdgeInsets.only(left: 10),
-                child: Text(
-                  heading,
-                  style: TextStyle(
-                    // color: Colors.black,
-                    fontSize: 24.0,
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
-              ),
-            ],
-          ),
+        Icon(
+          iconData,
+          color: Theme.of(context).primaryColor,
         ),
         Padding(
-          padding: const EdgeInsets.only(left: 15, right: 15, bottom: 10),
+          padding: const EdgeInsets.only(left: 10),
           child: Text(
             data,
             style: TextStyle(
-              fontSize: 18.0,
+              // color: Colors.black,
+              fontSize: 24.0,
+              fontWeight: FontWeight.w500,
             ),
-            textAlign: TextAlign.left,
           ),
-        )
+        ),
       ],
     ),
   );
+}
+
+Widget contactData(String data) {
+  return Padding(
+    padding: const EdgeInsets.only(left: 15, right: 15, bottom: 10),
+    child: Text(
+      data,
+      style: TextStyle(
+        fontSize: 18.0,
+      ),
+      textAlign: TextAlign.left,
+    ),
+  );
+}
+
+Widget callable(Widget child, String url) {
+  return GestureDetector(
+    child: child,
+    onTap: () => _call(url),
+  );
+}
+
+_call(String url) async {
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not open $url';
+  }
 }
