@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:grievance_redressal_system/complaint_page.dart';
-import 'package:grievance_redressal_system/contact_us.dart';
+import 'package:mrv_connect/complaint_page.dart';
+import 'package:mrv_connect/contact_us.dart';
 
-import 'package:grievance_redressal_system/status_check.dart';
-import 'package:grievance_redressal_system/suggestions_page.dart';
+import 'package:mrv_connect/status_check.dart';
+import 'package:mrv_connect/suggestions_page.dart';
 
 class LandingPage extends StatelessWidget {
   const LandingPage({Key key}) : super(key: key);

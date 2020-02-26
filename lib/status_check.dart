@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:grievance_redressal_system/request.dart' as request;
-import 'package:grievance_redressal_system/utils.dart';
+import 'package:mrv_connect/request.dart' as request;
+import 'package:mrv_connect/utils.dart';
 
 class StatusCheck extends StatefulWidget {
   StatusCheck({Key key}) : super(key: key);

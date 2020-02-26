@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:grievance_redressal_system/utils.dart';
+import 'package:mrv_connect/utils.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class ContactUs extends StatelessWidget {
@@ -37,13 +37,13 @@ class ContactUs extends StatelessWidget {
                                 'mailto:info@mrvinternational.in'),
                             callable(
                                 contactHeading(context, Icons.contact_phone,
-                                    'Sandhya Khurana'),
+                                    'Mrs. Sandhya Khurana'),
                                 'tel:01147537173'),
                             callable(
                                 contactData('01147537173'), 'tel:01147537173'),
                             callable(
                                 contactHeading(
-                                    context, Icons.phone, 'Tarun Chopra'),
+                                    context, Icons.phone, 'Mr. Tarun Chopra'),
                                 'tel:9250900575'),
                             callable(
                                 contactData('9250900575'), 'tel:9250900575'),
